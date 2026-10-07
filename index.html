@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Baby shower de Leticia</title>
+<meta name="description" content="Baby shower virtual de Leticia Ruiz Mota — domingo 8 de noviembre de 2026.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --ground: #F2F5F1; --surface: #FFFFFF; --surface-2: #E9EEE8;
+    --ink: #17241E; --ink-soft: #566A5F; --ink-faint: #849089;
+    --jade: #1F6F5C; --jade-soft: #E0EDE7;
+    --papaya: #C95F2B; --papaya-soft: #F8E6DC;
+    --line: #D8E0D8;
+    --shadow: 0 1px 2px rgba(23,36,30,.05), 0 8px 24px -12px rgba(23,36,30,.18);
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #101512; --surface: #19211D; --surface-2: #212B26;
+      --ink: #E7EEE9; --ink-soft: #9CACA2; --ink-faint: #75837A;
+      --jade: #5CC0A2; --jade-soft: #1B2F28;
+      --papaya: #F0905A; --papaya-soft: #2E211A;
+      --line: #2A3631;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.5);
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  img { max-width: 100%; height: auto; }
+  body {
+    background: var(--ground); color: var(--ink);
+    font-family: "Figtree", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16.5px; line-height: 1.6; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 660px; margin: 0 auto; padding-left: 20px; padding-right: 20px; }
+  h1, h2 { font-family: "Fraunces", Georgia, serif; text-wrap: balance; margin: 0; }
+  h3 { margin: 0; }
+  p { margin: 0; }
+  a { color: var(--jade); }
+  .eyebrow {
+    font-size: 12px; font-weight: 600; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--jade);
+  }
+
+  header.hero { padding: 56px 0 34px; }
+  header.hero h1 {
+    font-size: clamp(42px, 11vw, 66px); font-weight: 600;
+    line-height: 1; letter-spacing: -.025em; margin-top: 14px;
+  }
+  header.hero h1 em { font-style: italic; color: var(--jade); }
+  .lede { margin-top: 20px; font-size: 18px; color: var(--ink-soft); max-width: 50ch; }
+
+  section { padding: 36px 0; border-top: 1px solid var(--line); }
+  section > h2 {
+    font-size: clamp(24px, 5.5vw, 31px); font-weight: 600;
+    letter-spacing: -.015em; margin-top: 10px;
+  }
+  section > .intro { margin-top: 14px; color: var(--ink-soft); max-width: 58ch; }
+
+  .clocks { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 24px; }
+  @media (max-width: 560px) { .clocks { grid-template-columns: 1fr; } }
+  .clock {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 14px; padding: 16px; box-shadow: var(--shadow);
+  }
+  .clock .city {
+    font-size: 11.5px; font-weight: 700; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--ink-faint);
+  }
+  .clock .time {
+    font-family: "Fraunces", Georgia, serif; font-size: 33px; font-weight: 600;
+    line-height: 1.1; margin-top: 6px; font-variant-numeric: tabular-nums;
+  }
+  .clock.anchor { border-color: var(--jade); background: var(--jade-soft); }
+
+  .facts { margin-top: 18px; display: flex; flex-direction: column; gap: 9px; }
+  .facts div {
+    display: grid; grid-template-columns: 112px 1fr; gap: 14px;
+    font-size: 15.5px; padding-bottom: 9px; border-bottom: 1px solid var(--line);
+  }
+  .facts div:last-child { border-bottom: none; }
+  .facts dt, .facts .k {
+    font-size: 11.5px; font-weight: 700; letter-spacing: .07em;
+    text-transform: uppercase; color: var(--ink-faint); padding-top: 4px;
+  }
+  .facts .v { color: var(--ink-soft); }
+  @media (max-width: 460px) { .facts div { grid-template-columns: 1fr; gap: 2px; } }
+
+  .cta {
+    margin-top: 24px; background: var(--jade-soft);
+    border: 1px solid var(--jade); border-radius: 16px; padding: 26px;
+  }
+  .cta h3 { font-family: "Fraunces", Georgia, serif; font-size: 23px; font-weight: 600; }
+  .cta p { margin-top: 10px; color: var(--ink-soft); font-size: 15.5px; }
+  .btn {
+    display: inline-block; margin-top: 18px; background: var(--jade);
+    color: var(--ground); text-decoration: none; font-weight: 700;
+    font-size: 16px; padding: 13px 26px; border-radius: 999px;
+  }
+  .btn:hover, .btn:focus-visible { filter: brightness(1.08); }
+
+  ol.asks { list-style: none; margin: 22px 0 0; padding: 0; counter-reset: a; }
+  ol.asks li {
+    display: grid; grid-template-columns: 28px 1fr; gap: 14px;
+    padding: 13px 0; border-bottom: 1px solid var(--line); align-items: start;
+  }
+  ol.asks li:last-child { border-bottom: none; }
+  ol.asks li::before {
+    counter-increment: a; content: counter(a);
+    width: 28px; height: 28px; display: grid; place-items: center;
+    border-radius: 50%; background: var(--papaya); color: var(--ground);
+    font-size: 13px; font-weight: 700;
+  }
+  ol.asks h3 { font-size: 16.5px; font-weight: 700; }
+  ol.asks p { font-size: 15px; color: var(--ink-soft); margin-top: 3px; }
+
+  .lanes { display: flex; flex-direction: column; gap: 12px; margin-top: 22px; }
+  .lane {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 14px; padding: 18px; box-shadow: var(--shadow);
+  }
+  .lane .tag {
+    display: inline-block; font-size: 11px; font-weight: 700;
+    letter-spacing: .08em; text-transform: uppercase; color: var(--jade);
+    background: var(--jade-soft); padding: 3px 9px; border-radius: 999px;
+  }
+  .lane h3 { font-size: 17px; font-weight: 700; margin-top: 9px; }
+  .lane p { font-size: 15px; color: var(--ink-soft); margin-top: 6px; }
+
+  .warn {
+    margin-top: 20px; background: var(--papaya-soft);
+    border-radius: 12px; padding: 16px 18px; font-size: 15px;
+  }
+  .warn strong { color: var(--papaya); }
+
+  details { border-bottom: 1px solid var(--line); padding: 13px 0; }
+  details summary {
+    cursor: pointer; font-weight: 600; font-size: 16px; list-style: none;
+    display: flex; justify-content: space-between; gap: 14px;
+  }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::after { content: "+"; color: var(--jade); font-weight: 700; font-size: 19px; line-height: 1; }
+  details[open] summary::after { content: "\2013"; }
+  details p { margin-top: 9px; font-size: 15px; color: var(--ink-soft); max-width: 60ch; }
+
+  .todo {
+    background: var(--papaya-soft); color: var(--papaya); font-weight: 700;
+    font-size: .9em; padding: 1px 6px; border-radius: 5px;
+    border: 1px dashed var(--papaya); white-space: nowrap;
+  }
+
+  footer { border-top: 1px solid var(--line); padding: 28px 0 48px; font-size: 14px; color: var(--ink-faint); }
+  :focus-visible { outline: 2px solid var(--jade); outline-offset: 2px; border-radius: 3px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <p class="eyebrow">Baby shower virtual</p>
+    <h1>Leticia llega <em>en enero</em></h1>
+    <p class="lede">
+      Nos juntamos por Zoom a celebrarla: <span class="todo">[HERMANO]</span> y
+      <span class="todo">[CUÑADA]</span> desde Inglaterra, yo desde Boston y ustedes
+      desde media Colombia. Aquí está todo lo que hay que saber.
+    </p>
+  </header>
+
+  <section style="border-top:none; padding-top:0;">
+    <p class="eyebrow">Cuándo</p>
+    <h2>Domingo 8 de noviembre de 2026</h2>
+    <div class="clocks">
+      <div class="clock"><p class="city">Colombia</p><p class="time">10:00</p></div>
+      <div class="clock"><p class="city">Boston</p><p class="time">10:00</p></div>
+      <div class="clock anchor"><p class="city">Reino Unido</p><p class="time">15:00</p></div>
+    </div>
+    <div class="facts">
+      <div><span class="k">Dura</span><span class="v">Hora y cuarto. Si te toca entrar o salir a medias, entra igual.</span></div>
+      <div><span class="k">Dónde</span><span class="v">Por Zoom. Mando el enlace el día anterior y otra vez media hora antes, por WhatsApp y por correo.</span></div>
+      <div><span class="k">Qué llevar</span><span class="v">Nada. Ni decoración, ni torta, ni disfraz. Algo para brindar al final, si quieres.</span></div>
+      <div><span class="k">Toda Colombia</span><span class="v">Bogotá, Medellín, Cali, Barranquilla: la misma hora en todas. No hay que hacer cuentas.</span></div>
+    </div>
+  </section>
+
+  <section id="confirmar">
+    <p class="eyebrow">Lo único que te pido</p>
+    <h2>Llena el formulario</h2>
+    <p class="intro">
+      Es uno solo y toma tres minutos. Ahí confirmas si vienes y de paso dejas
+      las dos cosas que necesito para los juegos.
+    </p>
+    <ol class="asks">
+      <li>
+        <div>
+          <h3>Confirmas si te conectas</h3>
+          <p>Y si no puedes, dilo también: tu consejo se lee igual ese día.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Dejas un consejo, en una sola frase</h3>
+          <p>Lo que le dirías a unos papás primerizos. Serio, chistoso o heredado de tu abuela.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Haces tu apuesta</h3>
+          <p>Qué día nace, cuánto pesa, a quién se va a parecer. El que más se acerque gana en enero.</p>
+        </div>
+      </li>
+    </ol>
+    <div class="cta">
+      <h3>Tres minutos y listo</h3>
+      <p>Ojalá antes del <strong>1 de noviembre</strong>, para poder organizar los turnos de la ronda de consejos.</p>
+      <a class="btn" href="#" id="form-link">Abrir el formulario</a>
+    </div>
+    <div class="warn">
+      <strong>Falta una cosa que no cabe en el formulario:</strong> una foto tuya de bebé,
+      para el juego de adivinar quién es quién. Puede ser una foto de una foto, tomada con
+      el celular. Mándala a <span class="todo">[TU CORREO]</span> — por correo, no al grupo,
+      porque si la ven todos se arruina el juego.
+    </div>
+  </section>
+
+  <section id="regalo">
+    <p class="eyebrow">Opcional, de verdad</p>
+    <h2>El regalo</h2>
+    <p class="intro">
+      Leticia nace en Inglaterra, así que los regalos tienen que llegar allá. Ellos ya
+      tienen una lista en Amazon del Reino Unido con lo que de verdad necesitan, y de la
+      lista desaparece lo que ya compró alguien, así nadie repite.
+    </p>
+    <div class="lanes">
+      <div class="lane">
+        <span class="tag">Opción A</span>
+        <h3>Compras tú de la lista</h3>
+        <p>
+          Si tu tarjeta sirve en páginas de otros países: entra a
+          <span class="todo">[ENLACE DE LA LISTA]</span>, escoge, y lo despachan directo
+          a la casa de ellos. Deja tu nombre en el mensaje del regalo al pagar.
+        </p>
+      </div>
+      <div class="lane">
+        <span class="tag">Opción B</span>
+        <h3>Escoges y yo lo compro por ti</h3>
+        <p>
+          Si tu tarjeta no sirve para eso: mira la lista, dime qué quieres regalar, y me
+          escribes para pasarte los datos de la transferencia en pesos. Yo hago el pedido
+          desde acá <strong>con tu nombre en el regalo</strong>.
+        </p>
+      </div>
+      <div class="lane">
+        <span class="tag">Opción C</span>
+        <h3>Pones para el regalo grande</h3>
+        <p>
+          Entre todos vamos a dar <span class="todo">[EL REGALO GRANDE]</span>. Pon lo que
+          quieras, por el mismo medio de la Opción B. Nadie sabe cuánto puso cada uno.
+        </p>
+      </div>
+    </div>
+    <div class="warn">
+      <strong>No manden paquetes por correo desde Colombia:</strong> el envío cuesta más que
+      el regalo y llega con impuestos de aduana por pagar.
+      <br><br>
+      <strong>Y si no quieres dar nada, no des nada.</strong> Nadie lleva la cuenta.
+    </div>
+  </section>
+
+  <section id="dudas">
+    <p class="eyebrow">Dudas</p>
+    <h2>Por si acaso</h2>
+    <div style="margin-top:20px;">
+      <details>
+        <summary>No sé usar Zoom. ¿Qué hago?</summary>
+        <p>
+          Escríbeme y lo probamos juntos antes, por teléfono, con calma. También vamos a
+          abrir la sala media hora antes por si alguien necesita ayuda en el momento.
+          Desde el computador no hay que instalar nada; desde el celular sí hay que
+          bajar la aplicación, mejor con un día de anticipación.
+        </p>
+      </details>
+      <details>
+        <summary>No voy a poder a esa hora.</summary>
+        <p>
+          Llena el formulario igual. Tu consejo se lee en voz alta ese día aunque no estés,
+          tu apuesta cuenta, y te mando la grabación después.
+        </p>
+      </details>
+      <details>
+        <summary>¿Ellos saben?</summary>
+        <p>
+          Sí. No es sorpresa: la idea es que no tengan que organizar nada, solo conectarse
+          y dejarse querer un rato.
+        </p>
+      </details>
+      <details>
+        <summary>¿Puedo llevar a los niños?</summary>
+        <p>Claro. Que saluden, que canten. Mejor si están contigo en la misma cámara.</p>
+      </details>
+    </div>
+  </section>
+
+  <footer>
+    <p>Organiza Tatiana, desde Boston. Cualquier duda, escríbeme.</p>
+    <p style="margin-top:8px;">
+      Baby shower de Leticia Ruiz Mota · Domingo 8 de noviembre de 2026 ·
+      10:00 Colombia · 10:00 Boston · 15:00 Reino Unido
+    </p>
+  </footer>
+
+</div>
+</body>
+</html>
